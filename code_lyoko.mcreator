@@ -161,6 +161,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ice"
+    },
+    {
+      "name": "CreateiceCommandExecuted",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "createice_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Createice",
+      "type": "command",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "createice"
     }
   ],
   "variable_elements": [],

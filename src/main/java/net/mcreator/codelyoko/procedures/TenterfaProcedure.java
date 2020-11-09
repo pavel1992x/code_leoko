@@ -236,5 +236,29 @@ public class TenterfaProcedure extends CodeLyokoModElements.ModElement {
 		}
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).closeScreen();
+		if ((((new Object() {
+			public String getText() {
+				TextFieldWidget textField = (TextFieldWidget) guistate.get("text:code");
+				if (textField != null) {
+					return textField.getText();
+				}
+				return "";
+			}
+		}.getText())).equals("del[sector] = ice"))) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"fill 174 125 40 165 103 31 air");
+				}
+			}
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"fill 193 102 51 149 102 -7 air");
+				}
+			}
+		}
 	}
 }
