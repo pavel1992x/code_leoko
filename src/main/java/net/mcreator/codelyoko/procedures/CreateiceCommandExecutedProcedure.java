@@ -22,7 +22,7 @@ public class CreateiceCommandExecutedProcedure extends CodeLyokoModElements.ModE
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
 				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"fill 174 125 40 165 103 31 packed_ice");
+						"fill 193 102 51 149 102 -7 packed_ice");
 			}
 		}
 		{
