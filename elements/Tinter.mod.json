@@ -13,7 +13,6 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "itemTexture": "",
-    "blockBase": "Pane",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "TRANSLUCENT",

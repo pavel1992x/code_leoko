@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "code_lyoko:blocks/ttower",
+    "particle": "code_lyoko:blocks/ttower"
+  }
+}
