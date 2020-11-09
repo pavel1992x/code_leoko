@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "code_lyoko:block/ice_portal_ew"
+    },
+    "axis=x": {
+      "model": "code_lyoko:block/ice_portal_ns"
+    }
+  }
+}

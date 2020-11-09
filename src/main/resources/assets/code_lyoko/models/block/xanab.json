@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "code_lyoko:blocks/xanab",
+    "up": "code_lyoko:blocks/xanab",
+    "north": "code_lyoko:blocks/xanab",
+    "east": "code_lyoko:blocks/xanab",
+    "south": "code_lyoko:blocks/xanab",
+    "west": "code_lyoko:blocks/xanab",
+    "particle": "code_lyoko:blocks/xanab"
+  }
+}

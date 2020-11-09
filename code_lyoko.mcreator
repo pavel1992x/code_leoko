@@ -1,0 +1,198 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Sectorf",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sectorf"
+    },
+    {
+      "name": "Core",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "core"
+    },
+    {
+      "name": "Labirintc",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "labirintc"
+    },
+    {
+      "name": "Towerc",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towerc"
+    },
+    {
+      "name": "Tower",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tinter",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinter"
+    },
+    {
+      "name": "Tenterfa",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tenterfa",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guitow",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guitow"
+    },
+    {
+      "name": "TinterOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinter_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xanab",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xanab"
+    },
+    {
+      "name": "LYOKO",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lyoko"
+    },
+    {
+      "name": "TUNNELB",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tunnelb"
+    },
+    {
+      "name": "Ice",
+      "type": "dimension",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.code_lyoko.labirintc": "Labirintc",
+      "item.code_lyoko.towerc": "Towerc",
+      "itemGroup.tablyoko": "Лиоко",
+      "item.code_lyoko.ice": "Портал в ледяной сектор",
+      "block.code_lyoko.core": "Core",
+      "block.code_lyoko.xanab": "Xanab",
+      "block.code_lyoko.sectorf": "Блок сектора \"5\"",
+      "block.code_lyoko.tunnelb": "TUNNELB",
+      "block.code_lyoko.tinter": "Tinter"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "code_lyoko",
+    "modName": "code lyoko",
+    "version": "1.0.0",
+    "author": "user2, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.14.4",
+    "modElementsPackage": "net.mcreator.codelyoko",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

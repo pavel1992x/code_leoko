@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "code_lyoko:blocks/s",
+    "up": "code_lyoko:blocks/s",
+    "north": "code_lyoko:blocks/s",
+    "east": "code_lyoko:blocks/s",
+    "south": "code_lyoko:blocks/s",
+    "west": "code_lyoko:blocks/s",
+    "particle": "code_lyoko:blocks/s"
+  }
+}

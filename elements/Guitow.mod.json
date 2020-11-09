@@ -1,0 +1,38 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 433,
+    "height": 332,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 240,
+          "height": 40,
+          "name": "code",
+          "x": 301,
+          "y": 189
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "¬вод",
+          "onClick": {
+            "name": "Tenterfa"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "¬вод",
+          "x": 374,
+          "y": 238
+        }
+      }
+    ]
+  }
+}
